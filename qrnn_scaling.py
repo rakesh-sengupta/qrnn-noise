@@ -348,7 +348,7 @@ def run_reservoir_task(N_sys, module_size, qrnn_params, n_steps=200, washout=50,
 
 # ----------------------------- Main Execution -------------------------
 if __name__ == "__main__":
-    Ns = [4, 6, 8] 
+    Ns = [4, 6, 8, 10] 
     module_size = 3
     qrnn_hparams = {
         'delta': 0.1, 'alpha': 1.0, 'beta' : 0.1, 
